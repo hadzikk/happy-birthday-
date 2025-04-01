@@ -8,6 +8,7 @@
 
 @media (max-width: 600px) {
   .opening-container {
+    position: relative;
     width: 100%;
     height: 100vh;
     background: #FFE2E2;
@@ -30,6 +31,18 @@
   .opening-container .text-container {
     text-align: center;
     font-size: larger;
+  }
+  .opening-container .balloons:nth-of-type(1) {
+    position: absolute;
+    bottom: 18%;
+    left: 20px;
+    height: 60px;
+  }
+  .opening-container .balloons:nth-of-type(2) {
+    position: absolute;
+    bottom: 10%;
+    right: 20px;
+    height: 60px;
   }
 }
 .--spotify-frame {
