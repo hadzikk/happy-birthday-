@@ -36,6 +36,6 @@
   position: fixed;
   bottom: 20px;
   left: 20px;
-  width: 70%;
+  width: clamp(250px, 70%, 400px);
   height: 100px;
 }/*# sourceMappingURL=main.css.map */
