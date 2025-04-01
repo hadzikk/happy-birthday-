@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+}
+
+@media (max-width: 600px) {
+    .opening-container {
+        width: 100%;
+        height: 100vh;
+        background: #FFE2E2;
+
+        .card-container {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+
+            .card {
+                width: 250px;
+                height: 300px;
+
+                .card-picture {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                }
+            }
+        }
+
+        .text-container {
+            text-align: center;
+            font-size: larger;
+        }
+    }
+}
+
+.--spotify-frame {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    width: 50%;
+    height: 100px;
+}
