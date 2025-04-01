@@ -57,5 +57,59 @@
     left: 20px;
     width: clamp(250px, 70%, 400px);
     height: 100px;
+
+}
+
+@media (max-width: 500px) {
+    .opening-container {
+        position: relative;
+        width: 100%;
+        height: 100vh;
+        background: #FFE2E2;
+
+        .card-container {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+
+            .card {
+                width: 250px;
+                height: 300px;
+
+                .card-picture {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                }
+            }
+        }
+
+        .text-container {
+            text-align: center;
+            font-size: larger;
+        }
+
+        .balloons:nth-of-type(1) {
+            position: absolute;
+            bottom: 18%;
+            left: 20px;
+            height: 60px;
+        }
+
+        .balloons:nth-of-type(2) {
+            position: absolute;
+            bottom: 10%;
+            right: 20px;
+            height: 60px;
+        }
+    }
+}
+
+.--spotify-frame {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    width: clamp(250px, 70%, 400px);
+    height: 100px;
     
 }
